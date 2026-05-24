@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cloudbridge
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: API_KEY
+        value: "05c37f4ac121e15c50dbe3c4bfe470517ce02f598430c0bfb8eb16712b1f70cc"
